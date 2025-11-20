@@ -28,4 +28,5 @@ with open("portfolio.txt", "w") as file:
         file.write(f"{stock},{qty},{stock_prices[stock]},{stock_prices[stock]*qty}\n")
     file.write(f"Total,,,{total_value}\n")
 
+
 print("\nPortfolio saved to 'portfolio.txt'")
